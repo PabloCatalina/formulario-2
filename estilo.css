@@ -1,0 +1,14 @@
+input{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+tr{
+    width: 50%;
+}
+
+input.fecha{
+    float: left;
+    text-align: center;
+    
+}

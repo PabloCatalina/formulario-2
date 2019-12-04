@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Formulario 2</title>
+</head>
+<body>
+    <header>
+        <img src="img/ing.PNG">
+    </header>
+    <main>
+        <table>
+            <tbody>
+              <tr>
+                <td>E-mail<span>*</span></td>
+                <td>DNI o Tarjeta de residencia<span>*</span></td>
+                <td>Fecha de nacimiento<span>*</span></td>
+              </tr>
+              <tr>
+                <td><input type="email" name="correo" size="40"></td>
+                <td><input type="text" name="texto" maxlength="9" size="40"></td>
+                <td>
+                    
+                    <input class="fecha" type="text" data-selector="day" maxlength="2" class="basic-form-control-date-box basic-form-control-date-box-day" placeholder="DD">
+                    <input class="fecha" type="text" data-selector="month" maxlength="2" class="basic-form-control-date-box basic-form-control-date-box-month" placeholder="MM">
+                    <input class="fecha" type="text" data-selector="year" maxlength="4" class="basic-form-control-date-box basic-form-control-date-box-year" placeholder="AAAA">
+                    
+                </td>
+                
+              </tr>
+            </tbody>
+          </table>
+    </main>
+</body>
+</html>
