@@ -59,24 +59,64 @@ p.ING2{
     padding-bottom: 15px;
 }
 
+div.caja{
+    border-bottom-color: rgb(201,201,201);
+    border-bottom-style: solid;
+    border-bottom-width: 1.98px;
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(201,201,201);
+    border-left-style: solid;
+    border-left-width: 1.98px;
+    border-right-color: rgb(201,201,201);
+    border-right-style: solid;
+    border-right-width: 1.98px;
+    border-top-color: rgb(201,201,201);
+    border-top-style: solid;
+    border-top-width: 1.98px;
+    box-sizing: border-box;
+    color: rgb(51,51,51);
+    display: block;
+    height: 115px;
+    overflow-y: scroll;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    text-size-adjust: 100%;
+    width: 1108px;
+    zoom: 1;
+    margin-left: 396px;
+}
+
 p.text1{
     font-family: sans-serif;
     font-size: 11px;
-    padding-left: 396px;
+    
 }
 
 p.text2{
     font-family: sans-serif;
     font-size: 11px;
     color: rgb(118, 118, 118);
-    padding-left: 396px;
+    
 }
 
 p.text3{
     font-family: sans-serif;
     font-size: 11px;
     color: rgb(118, 118, 118);
-    padding-left: 396px;
+    
+}
+
+p.text4{
+    font-family: sans-serif;
+    font-size: 11px;
+    color: rgb(118, 118, 118);
+    
 }
 
 p.pdd-top{
