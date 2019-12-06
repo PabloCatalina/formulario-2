@@ -56,10 +56,11 @@ p.ING2{
     color: rgb(118, 118, 118);
     padding-left: 396px;
     padding-top: 10px;
-    padding-bottom: 15px;
+    padding-bottom: 18px;
 }
 
 div.caja{
+    /* Caja dobde estan los text */
     border-bottom-color: rgb(201,201,201);
     border-bottom-style: solid;
     border-bottom-width: 1.98px;
@@ -95,7 +96,8 @@ div.caja{
 p.text1{
     font-family: sans-serif;
     font-size: 11px;
-    
+    margin-top: 5px;
+    padding-bottom: 10px;
 }
 
 p.text2{
@@ -119,6 +121,32 @@ p.text4{
     
 }
 
+ul{
+    font-family: sans-serif;
+    font-size: 11px;
+    color: rgb(118, 118, 118);
+    /* Lista despues del Text5 */
+}
+
+p.text6{
+    font-family: sans-serif;
+    font-size: 11px;
+    color: rgb(118, 118, 118);
+}
+
+p.text7{
+    font-family: sans-serif;
+    font-size: 11px;
+    color: rgb(118, 118, 118);
+}
+
+p.text8{
+    font-family: sans-serif;
+    font-size: 11px;
+    color: rgb(118, 118, 118);
+}
+
+
 p.pdd-top{
     padding-top: 15px;
 }
@@ -133,4 +161,11 @@ a.link{
     border-bottom-color: rgb(255,98,0);
     border-bottom-width: 1.85px;
     background-size:auto ;
+}
+
+a.text{
+    font-family: sans-serif;
+    font-size: 11px;
+    color: rgb(118, 118, 118);
+    text-decoration: none;
 }
